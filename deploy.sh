@@ -72,8 +72,8 @@ info "Migrations complete."
 
 # ── Step 7: Clear and rebuild caches ─────────────────────────
 info "Rebuilding caches..."
-remote "cd ${SERVER_PATH} && ${PHP} artisan config:cache && ${PHP} artisan route:cache && ${PHP} artisan view:cache && ${PHP} artisan event:cache"
-info "Caches rebuilt."
+remote "cd ${SERVER_PATH} && ${PHP} artisan config:cache && ${PHP} artisan view:cache && ${PHP} artisan event:cache"
+info "Caches rebuilt (route cache skipped for Livewire compatibility)."
 
 # ── Step 8: Restart queues (if applicable) ───────────────────
 # remote "cd ${SERVER_PATH} && ${PHP} artisan queue:restart"
