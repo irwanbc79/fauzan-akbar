@@ -1,182 +1,207 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 400" preserveAspectRatio="none">
+  <!-- Skyline silhouette - flat solid style like mockup -->
+  
+  <!-- Back layer (lighter, taller buildings) -->
+  <g fill="rgba(201,168,76,0.12)">
+    <!-- Back buildings scattered -->
+    <rect x="60" y="220" width="35" height="180"/>
+    <rect x="110" y="240" width="28" height="160"/>
+    <rect x="155" y="200" width="22" height="200"/>
+    <rect x="370" y="230" width="30" height="170"/>
+    <rect x="415" y="210" width="25" height="190"/>
+    <rect x="455" y="250" width="20" height="150"/>
+    <rect x="850" y="225" width="28" height="175"/>
+    <rect x="895" y="205" width="22" height="195"/>
+    <rect x="935" y="240" width="30" height="160"/>
+    <rect x="1260" y="215" width="25" height="185"/>
+    <rect x="1300" y="235" width="30" height="165"/>
+    <rect x="1350" y="200" width="22" height="200"/>
+    <rect x="1390" y="245" width="28" height="155"/>
+  </g>
 
-  <!-- ===== MOSQUE 1 (Left) - Small mosque ===== -->
-  <g>
+  <!-- Main skyline path - continuous silhouette -->
+  <path fill="rgba(201,168,76,0.22)" d="
+    M0,400 L0,360
+    L30,360 L30,340 L50,340 L50,320 L70,320 L70,340 L90,340 L90,360
+    L100,360 L100,310 L120,310 L120,280 L135,280 L135,310 L150,310 L150,360
+    L170,360 L170,330 L185,330 L185,360
+    L200,360
+    L200,310 L210,310 L210,280 L225,280 L225,310 L240,310 L240,360
+    L260,360 L260,340 L275,340 L275,320 L290,320 L290,340 L310,340 L310,360
+    L340,360 L340,330 L355,330 L355,300 L370,300 L370,330 L385,330 L385,360
+    L400,360 L400,340 L415,340 L415,360
+    L430,360 L430,320 L445,320 L445,290 L460,290 L460,320 L475,320 L475,360
+    L500,360 L500,335 L520,335 L520,360
+    L540,360
+    L560,360 L560,320 L575,320 L575,300 L590,300 L590,320 L605,320 L605,360
+    L620,360 L620,340 L640,340 L640,310 L655,310 L655,340 L670,340 L670,360
+    L690,360 L690,330 L705,330 L705,350 L720,350 L720,360
+    L740,360 L740,340 L760,340 L760,310 L775,310 L775,340 L790,340 L790,360
+    L810,360 L810,330 L830,330 L830,360
+    L850,360 L850,320 L865,320 L865,290 L880,290 L880,320 L895,320 L895,360
+    L910,360 L910,340 L925,340 L925,360
+    L950,360 L950,330 L965,330 L965,300 L980,300 L980,330 L995,330 L995,360
+    L1020,360 L1020,340 L1040,340 L1040,360
+    L1060,360 L1060,320 L1075,320 L1075,290 L1090,290 L1090,320 L1105,320 L1105,360
+    L1120,360 L1120,340 L1140,340 L1140,320 L1155,320 L1155,340 L1170,340 L1170,360
+    L1190,360 L1190,330 L1210,330 L1210,360
+    L1230,360 L1230,340 L1245,340 L1245,310 L1260,310 L1260,340 L1275,340 L1275,360
+    L1300,360 L1300,340 L1320,340 L1320,360
+    L1340,360 L1340,330 L1355,330 L1355,300 L1370,300 L1370,330 L1385,330 L1385,360
+    L1420,360 L1420,340 L1440,340 L1440,400 Z
+  "/>
+
+  <!-- ===== MOSQUE 1 (far left) - small ===== -->
+  <g fill="rgba(201,168,76,0.28)">
+    <!-- Body -->
+    <rect x="30" y="290" width="100" height="110"/>
+    <!-- Dome - proper round kubah -->
+    <path d="M80,290 Q80,290 50,285 Q30,270 30,250 Q30,220 80,195 Q130,220 130,250 Q130,270 110,285 Q80,290 80,290Z"/>
+    <!-- Drum/neck below dome -->
+    <rect x="48" y="285" width="64" height="8" rx="2"/>
+  </g>
+  <!-- Finial + Crescent for Mosque 1 -->
+  <line x1="80" y1="195" x2="80" y2="170" stroke="rgba(201,168,76,0.40)" stroke-width="2.5"/>
+  <circle cx="80" cy="165" r="3" fill="rgba(201,168,76,0.40)"/>
+  <!-- Crescent moon -->
+  <path d="M73,155 A9,9 0 1,0 87,155" fill="none" stroke="rgba(201,168,76,0.40)" stroke-width="2"/>
+  <path d="M73,155 A9,9 0 1,0 87,155 A7,7 0 1,1 73,155Z" fill="rgba(201,168,76,0.40)"/>
+
+  <!-- Minaret left of mosque 1 -->
+  <g fill="rgba(201,168,76,0.28)">
+    <rect x="15" y="220" width="14" height="180"/>
+    <path d="M22,220 Q12,210 12,198 Q12,180 22,168 Q32,180 32,198 Q32,210 22,220Z"/>
+    <rect x="10" y="245" width="24" height="4" rx="1"/>
+  </g>
+  <line x1="22" y1="168" x2="22" y2="150" stroke="rgba(201,168,76,0.38)" stroke-width="2"/>
+  <path d="M17,142 A6,6 0 1,0 27,142 A4.5,4.5 0 1,1 17,142Z" fill="rgba(201,168,76,0.38)"/>
+
+  <!-- Minaret right of mosque 1 -->
+  <g fill="rgba(201,168,76,0.28)">
+    <rect x="135" y="230" width="14" height="170"/>
+    <path d="M142,230 Q132,220 132,208 Q132,192 142,180 Q152,192 152,208 Q152,220 142,230Z"/>
+    <rect x="130" y="255" width="24" height="4" rx="1"/>
+  </g>
+  <line x1="142" y1="180" x2="142" y2="162" stroke="rgba(201,168,76,0.38)" stroke-width="2"/>
+  <path d="M137,154 A6,6 0 1,0 147,154 A4.5,4.5 0 1,1 137,154Z" fill="rgba(201,168,76,0.38)"/>
+
+
+  <!-- ===== MOSQUE 2 (Center) - Grand Masjid ===== -->
+  <g fill="rgba(201,168,76,0.32)">
     <!-- Main body -->
-    <rect x="140" y="280" width="160" height="120" rx="2" fill="rgba(201,168,76,0.35)"/>
-    <!-- Large onion dome -->
-    <ellipse cx="220" cy="240" rx="55" ry="45" fill="rgba(201,168,76,0.40)"/>
-    <!-- Dome neck -->
-    <rect x="200" y="275" width="40" height="10" fill="rgba(201,168,76,0.35)"/>
-    <!-- Dome top point (onion tip) -->
-    <path d="M220,195 C215,205 195,225 195,245 C195,260 205,275 220,280 C235,275 245,260 245,245 C245,225 225,205 220,195Z" fill="rgba(201,168,76,0.42)"/>
-    <!-- Finial stick -->
-    <line x1="220" y1="195" x2="220" y2="172" stroke="rgba(201,168,76,0.50)" stroke-width="2.5"/>
-    <!-- Crescent moon -->
-    <path d="M213,168 A8,8 0 1,1 227,168 A6,6 0 1,0 213,168Z" fill="rgba(201,168,76,0.55)"/>
-
-    <!-- Left minaret -->
-    <rect x="130" y="220" width="18" height="180" fill="rgba(201,168,76,0.30)"/>
-    <!-- Minaret dome -->
-    <path d="M139,220 C133,215 128,205 130,195 C132,205 136,212 139,220Z" fill="rgba(201,168,76,0.35)"/>
-    <path d="M139,220 C145,215 150,205 148,195 C146,205 142,212 139,220Z" fill="rgba(201,168,76,0.35)"/>
-    <ellipse cx="139" cy="198" rx="10" ry="14" fill="rgba(201,168,76,0.38)"/>
-    <line x1="139" y1="184" x2="139" y2="170" stroke="rgba(201,168,76,0.45)" stroke-width="2"/>
-    <path d="M134,166 A6,6 0 1,1 144,166 A4.5,4.5 0 1,0 134,166Z" fill="rgba(201,168,76,0.48)"/>
-    <!-- Minaret balcony -->
-    <rect x="125" y="250" width="28" height="4" rx="2" fill="rgba(201,168,76,0.32)"/>
-    <rect x="127" y="300" width="24" height="3" rx="1" fill="rgba(201,168,76,0.25)"/>
-
-    <!-- Right minaret -->
-    <rect x="292" y="220" width="18" height="180" fill="rgba(201,168,76,0.30)"/>
-    <ellipse cx="301" cy="198" rx="10" ry="14" fill="rgba(201,168,76,0.38)"/>
-    <line x1="301" y1="184" x2="301" y2="170" stroke="rgba(201,168,76,0.45)" stroke-width="2"/>
-    <path d="M296,166 A6,6 0 1,1 306,166 A4.5,4.5 0 1,0 296,166Z" fill="rgba(201,168,76,0.48)"/>
-    <rect x="287" y="250" width="28" height="4" rx="2" fill="rgba(201,168,76,0.32)"/>
-    <rect x="289" y="300" width="24" height="3" rx="1" fill="rgba(201,168,76,0.25)"/>
-
-    <!-- Arched door -->
-    <path d="M205,400 L205,340 A15,18 0 0,1 235,340 L235,400Z" fill="rgba(201,168,76,0.20)"/>
-    <!-- Arched windows -->
-    <path d="M165,310 A8,10 0 0,1 181,310 L181,335 L165,335Z" fill="rgba(201,168,76,0.20)"/>
-    <path d="M259,310 A8,10 0 0,1 275,310 L275,335 L259,335Z" fill="rgba(201,168,76,0.20)"/>
+    <rect x="530" y="240" width="260" height="160"/>
+    <!-- Central dome - large round kubah -->
+    <path d="M660,240 Q660,240 610,235 Q575,215 575,185 Q575,140 660,100 Q745,140 745,185 Q745,215 710,235 Q660,240 660,240Z"/>
+    <!-- Dome drum -->
+    <rect x="608" y="232" width="104" height="12" rx="3"/>
+    
+    <!-- Left sub-dome -->
+    <path d="M575,240 Q575,240 555,237 Q540,228 540,215 Q540,195 575,178 Q610,195 610,215 Q610,228 595,237 Q575,240 575,240Z"/>
+    <rect x="553" y="236" width="44" height="6" rx="2"/>
+    
+    <!-- Right sub-dome -->
+    <path d="M745,240 Q745,240 725,237 Q710,228 710,215 Q710,195 745,178 Q780,195 780,215 Q780,228 765,237 Q745,240 745,240Z"/>
+    <rect x="723" y="236" width="44" height="6" rx="2"/>
   </g>
 
-  <!-- ===== MOSQUE 2 (Center) - Grand Masjid (largest) ===== -->
-  <g>
-    <!-- Main body -->
-    <rect x="520" y="230" width="280" height="170" rx="3" fill="rgba(201,168,76,0.38)"/>
+  <!-- Grand mosque finial + crescent -->
+  <line x1="660" y1="100" x2="660" y2="65" stroke="rgba(201,168,76,0.45)" stroke-width="3"/>
+  <circle cx="660" cy="60" r="4" fill="rgba(201,168,76,0.45)"/>
+  <path d="M650,48 A12,12 0 1,0 670,48 A9.5,9.5 0 1,1 650,48Z" fill="rgba(201,168,76,0.45)"/>
 
-    <!-- Central large onion dome -->
-    <path d="M660,110 C650,130 610,170 610,210 C610,235 630,255 660,260 C690,255 710,235 710,210 C710,170 670,130 660,110Z" fill="rgba(201,168,76,0.45)"/>
-    <!-- Dome base ring -->
-    <ellipse cx="660" cy="255" rx="52" ry="8" fill="rgba(201,168,76,0.35)"/>
-    <!-- Finial -->
-    <line x1="660" y1="110" x2="660" y2="82" stroke="rgba(201,168,76,0.55)" stroke-width="3"/>
-    <!-- Crescent -->
-    <path d="M651,75 A10,10 0 1,1 669,75 A8,8 0 1,0 651,75Z" fill="rgba(201,168,76,0.60)"/>
-    <!-- Star -->
-    <circle cx="660" cy="62" r="3" fill="rgba(201,168,76,0.55)"/>
+  <!-- Left sub-dome crescent -->
+  <line x1="575" y1="178" x2="575" y2="158" stroke="rgba(201,168,76,0.40)" stroke-width="2"/>
+  <path d="M569,150 A7,7 0 1,0 581,150 A5.5,5.5 0 1,1 569,150Z" fill="rgba(201,168,76,0.40)"/>
 
-    <!-- Left secondary dome -->
-    <path d="M575,175 C570,185 555,200 555,218 C555,230 563,240 575,243 C587,240 595,230 595,218 C595,200 580,185 575,175Z" fill="rgba(201,168,76,0.38)"/>
-    <ellipse cx="575" cy="240" rx="22" ry="5" fill="rgba(201,168,76,0.30)"/>
-    <line x1="575" y1="175" x2="575" y2="162" stroke="rgba(201,168,76,0.45)" stroke-width="2"/>
-    <path d="M570,158 A6,6 0 1,1 580,158 A4.5,4.5 0 1,0 570,158Z" fill="rgba(201,168,76,0.50)"/>
+  <!-- Right sub-dome crescent -->
+  <line x1="745" y1="178" x2="745" y2="158" stroke="rgba(201,168,76,0.40)" stroke-width="2"/>
+  <path d="M739,150 A7,7 0 1,0 751,150 A5.5,5.5 0 1,1 739,150Z" fill="rgba(201,168,76,0.40)"/>
 
-    <!-- Right secondary dome -->
-    <path d="M745,175 C740,185 725,200 725,218 C725,230 733,240 745,243 C757,240 765,230 765,218 C765,200 750,185 745,175Z" fill="rgba(201,168,76,0.38)"/>
-    <ellipse cx="745" cy="240" rx="22" ry="5" fill="rgba(201,168,76,0.30)"/>
-    <line x1="745" y1="175" x2="745" y2="162" stroke="rgba(201,168,76,0.45)" stroke-width="2"/>
-    <path d="M740,158 A6,6 0 1,1 750,158 A4.5,4.5 0 1,0 740,158Z" fill="rgba(201,168,76,0.50)"/>
+  <!-- Grand mosque tall minaret left -->
+  <g fill="rgba(201,168,76,0.32)">
+    <rect x="495" y="140" width="20" height="260"/>
+    <path d="M505,140 Q492,128 492,112 Q492,88 505,72 Q518,88 518,112 Q518,128 505,140Z"/>
+    <rect x="489" y="175" width="32" height="5" rx="2"/>
+    <rect x="491" y="240" width="28" height="4" rx="1"/>
+    <rect x="492" y="310" width="26" height="4" rx="1"/>
+  </g>
+  <line x1="505" y1="72" x2="505" y2="48" stroke="rgba(201,168,76,0.42)" stroke-width="2.5"/>
+  <path d="M499,40 A7,7 0 1,0 511,40 A5.5,5.5 0 1,1 499,40Z" fill="rgba(201,168,76,0.42)"/>
 
-    <!-- Tall left minaret -->
-    <rect x="498" y="150" width="20" height="250" fill="rgba(201,168,76,0.35)"/>
-    <ellipse cx="508" cy="138" rx="12" ry="16" fill="rgba(201,168,76,0.42)"/>
-    <line x1="508" y1="122" x2="508" y2="100" stroke="rgba(201,168,76,0.50)" stroke-width="2.5"/>
-    <path d="M502,95 A7,7 0 1,1 514,95 A5.5,5.5 0 1,0 502,95Z" fill="rgba(201,168,76,0.55)"/>
-    <!-- Balconies -->
-    <rect x="493" y="190" width="30" height="4" rx="2" fill="rgba(201,168,76,0.32)"/>
-    <rect x="495" y="250" width="26" height="3" rx="1" fill="rgba(201,168,76,0.28)"/>
-    <rect x="496" y="320" width="24" height="3" rx="1" fill="rgba(201,168,76,0.22)"/>
+  <!-- Grand mosque tall minaret right -->
+  <g fill="rgba(201,168,76,0.32)">
+    <rect x="805" y="140" width="20" height="260"/>
+    <path d="M815,140 Q802,128 802,112 Q802,88 815,72 Q828,88 828,112 Q828,128 815,140Z"/>
+    <rect x="799" y="175" width="32" height="5" rx="2"/>
+    <rect x="801" y="240" width="28" height="4" rx="1"/>
+    <rect x="802" y="310" width="26" height="4" rx="1"/>
+  </g>
+  <line x1="815" y1="72" x2="815" y2="48" stroke="rgba(201,168,76,0.42)" stroke-width="2.5"/>
+  <path d="M809,40 A7,7 0 1,0 821,40 A5.5,5.5 0 1,1 809,40Z" fill="rgba(201,168,76,0.42)"/>
 
-    <!-- Tall right minaret -->
-    <rect x="802" y="150" width="20" height="250" fill="rgba(201,168,76,0.35)"/>
-    <ellipse cx="812" cy="138" rx="12" ry="16" fill="rgba(201,168,76,0.42)"/>
-    <line x1="812" y1="122" x2="812" y2="100" stroke="rgba(201,168,76,0.50)" stroke-width="2.5"/>
-    <path d="M806,95 A7,7 0 1,1 818,95 A5.5,5.5 0 1,0 806,95Z" fill="rgba(201,168,76,0.55)"/>
-    <rect x="797" y="190" width="30" height="4" rx="2" fill="rgba(201,168,76,0.32)"/>
-    <rect x="799" y="250" width="26" height="3" rx="1" fill="rgba(201,168,76,0.28)"/>
-    <rect x="800" y="320" width="24" height="3" rx="1" fill="rgba(201,168,76,0.22)"/>
 
-    <!-- Main arched door -->
-    <path d="M640,400 L640,320 A20,25 0 0,1 680,320 L680,400Z" fill="rgba(201,168,76,0.22)"/>
-    <!-- Side doors -->
-    <path d="M560,400 L560,345 A10,12 0 0,1 580,345 L580,400Z" fill="rgba(201,168,76,0.18)"/>
-    <path d="M740,400 L740,345 A10,12 0 0,1 760,345 L760,400Z" fill="rgba(201,168,76,0.18)"/>
-    <!-- Windows row -->
-    <path d="M570,270 A8,10 0 0,1 586,270 L586,290 L570,290Z" fill="rgba(201,168,76,0.18)"/>
-    <path d="M608,270 A8,10 0 0,1 624,270 L624,290 L608,290Z" fill="rgba(201,168,76,0.18)"/>
-    <path d="M696,270 A8,10 0 0,1 712,270 L712,290 L696,290Z" fill="rgba(201,168,76,0.18)"/>
-    <path d="M734,270 A8,10 0 0,1 750,270 L750,290 L734,290Z" fill="rgba(201,168,76,0.18)"/>
+  <!-- ===== MOSQUE 3 (Right) - Medium ===== -->
+  <g fill="rgba(201,168,76,0.28)">
+    <!-- Body -->
+    <rect x="1080" y="270" width="150" height="130"/>
+    <!-- Dome -->
+    <path d="M1155,270 Q1155,270 1115,266 Q1095,250 1095,230 Q1095,195 1155,165 Q1215,195 1215,230 Q1215,250 1195,266 Q1155,270 1155,270Z"/>
+    <!-- Drum -->
+    <rect x="1112" y="264" width="86" height="10" rx="2"/>
+  </g>
+  <!-- Finial + Crescent -->
+  <line x1="1155" y1="165" x2="1155" y2="138" stroke="rgba(201,168,76,0.40)" stroke-width="2.5"/>
+  <circle cx="1155" cy="133" r="3.5" fill="rgba(201,168,76,0.40)"/>
+  <path d="M1147,122 A10,10 0 1,0 1163,122 A8,8 0 1,1 1147,122Z" fill="rgba(201,168,76,0.40)"/>
+
+  <!-- Minaret left of mosque 3 -->
+  <g fill="rgba(201,168,76,0.28)">
+    <rect x="1060" y="200" width="16" height="200"/>
+    <path d="M1068,200 Q1057,190 1057,176 Q1057,158 1068,145 Q1079,158 1079,176 Q1079,190 1068,200Z"/>
+    <rect x="1054" y="228" width="28" height="4" rx="1"/>
+  </g>
+  <line x1="1068" y1="145" x2="1068" y2="125" stroke="rgba(201,168,76,0.38)" stroke-width="2"/>
+  <path d="M1062,118 A7,7 0 1,0 1074,118 A5.5,5.5 0 1,1 1062,118Z" fill="rgba(201,168,76,0.38)"/>
+
+  <!-- Minaret right of mosque 3 -->
+  <g fill="rgba(201,168,76,0.28)">
+    <rect x="1234" y="210" width="16" height="190"/>
+    <path d="M1242,210 Q1231,200 1231,186 Q1231,168 1242,155 Q1253,168 1253,186 Q1253,200 1242,210Z"/>
+    <rect x="1228" y="238" width="28" height="4" rx="1"/>
+  </g>
+  <line x1="1242" y1="155" x2="1242" y2="135" stroke="rgba(201,168,76,0.38)" stroke-width="2"/>
+  <path d="M1236,128 A7,7 0 1,0 1248,128 A5.5,5.5 0 1,1 1236,128Z" fill="rgba(201,168,76,0.38)"/>
+
+
+  <!-- ===== Small dome (far right corner) ===== -->
+  <g fill="rgba(201,168,76,0.22)">
+    <rect x="1350" y="310" width="90" height="90"/>
+    <path d="M1395,310 Q1395,310 1368,306 Q1355,296 1355,282 Q1355,260 1395,240 Q1435,260 1435,282 Q1435,296 1422,306 Q1395,310 1395,310Z"/>
+    <rect x="1366" y="305" width="58" height="8" rx="2"/>
+  </g>
+  <line x1="1395" y1="240" x2="1395" y2="218" stroke="rgba(201,168,76,0.35)" stroke-width="2"/>
+  <path d="M1389,210 A7,7 0 1,0 1401,210 A5.5,5.5 0 1,1 1389,210Z" fill="rgba(201,168,76,0.35)"/>
+
+
+  <!-- ===== Palm/tree silhouettes ===== -->
+  <g fill="rgba(201,168,76,0.18)">
+    <!-- Tree 1 -->
+    <rect x="190" y="310" width="5" height="90"/>
+    <ellipse cx="192" cy="300" rx="18" ry="22"/>
+    <!-- Tree 2 -->
+    <rect x="465" y="320" width="5" height="80"/>
+    <ellipse cx="467" cy="310" rx="16" ry="20"/>
+    <!-- Tree 3 -->
+    <rect x="835" y="325" width="4" height="75"/>
+    <ellipse cx="837" cy="316" rx="14" ry="18"/>
+    <!-- Tree 4 -->
+    <rect x="980" y="320" width="5" height="80"/>
+    <ellipse cx="982" cy="310" rx="16" ry="20"/>
+    <!-- Tree 5 -->
+    <rect x="1280" y="315" width="4" height="85"/>
+    <ellipse cx="1282" cy="305" rx="15" ry="19"/>
   </g>
 
-  <!-- ===== MOSQUE 3 (Right) - Medium mosque ===== -->
-  <g>
-    <!-- Main body -->
-    <rect x="1020" y="265" width="170" height="135" rx="2" fill="rgba(201,168,76,0.35)"/>
-    <!-- Onion dome -->
-    <path d="M1105,150 C1098,168 1070,195 1070,222 C1070,240 1085,255 1105,258 C1125,255 1140,240 1140,222 C1140,195 1112,168 1105,150Z" fill="rgba(201,168,76,0.42)"/>
-    <ellipse cx="1105" cy="255" rx="38" ry="7" fill="rgba(201,168,76,0.33)"/>
-    <!-- Finial -->
-    <line x1="1105" y1="150" x2="1105" y2="128" stroke="rgba(201,168,76,0.50)" stroke-width="2.5"/>
-    <!-- Crescent -->
-    <path d="M1098,122 A8,8 0 1,1 1112,122 A6,6 0 1,0 1098,122Z" fill="rgba(201,168,76,0.55)"/>
-
-    <!-- Left minaret -->
-    <rect x="1005" y="210" width="16" height="190" fill="rgba(201,168,76,0.30)"/>
-    <ellipse cx="1013" cy="196" rx="10" ry="14" fill="rgba(201,168,76,0.38)"/>
-    <line x1="1013" y1="182" x2="1013" y2="165" stroke="rgba(201,168,76,0.45)" stroke-width="2"/>
-    <path d="M1008,161 A6,6 0 1,1 1018,161 A4.5,4.5 0 1,0 1008,161Z" fill="rgba(201,168,76,0.50)"/>
-    <rect x="1000" y="245" width="26" height="4" rx="2" fill="rgba(201,168,76,0.30)"/>
-
-    <!-- Right minaret -->
-    <rect x="1189" y="210" width="16" height="190" fill="rgba(201,168,76,0.30)"/>
-    <ellipse cx="1197" cy="196" rx="10" ry="14" fill="rgba(201,168,76,0.38)"/>
-    <line x1="1197" y1="182" x2="1197" y2="165" stroke="rgba(201,168,76,0.45)" stroke-width="2"/>
-    <path d="M1192,161 A6,6 0 1,1 1202,161 A4.5,4.5 0 1,0 1192,161Z" fill="rgba(201,168,76,0.50)"/>
-    <rect x="1184" y="245" width="26" height="4" rx="2" fill="rgba(201,168,76,0.30)"/>
-
-    <!-- Door -->
-    <path d="M1090,400 L1090,340 A15,18 0 0,1 1120,340 L1120,400Z" fill="rgba(201,168,76,0.20)"/>
-    <!-- Windows -->
-    <path d="M1045,300 A8,10 0 0,1 1061,300 L1061,320 L1045,320Z" fill="rgba(201,168,76,0.18)"/>
-    <path d="M1149,300 A8,10 0 0,1 1165,300 L1165,320 L1149,320Z" fill="rgba(201,168,76,0.18)"/>
-  </g>
-
-  <!-- ===== Small dome far left ===== -->
-  <g>
-    <rect x="10" y="330" width="80" height="70" rx="2" fill="rgba(201,168,76,0.25)"/>
-    <path d="M50,270 C46,280 32,295 32,312 C32,322 40,330 50,332 C60,330 68,322 68,312 C68,295 54,280 50,270Z" fill="rgba(201,168,76,0.32)"/>
-    <line x1="50" y1="270" x2="50" y2="258" stroke="rgba(201,168,76,0.40)" stroke-width="2"/>
-    <path d="M45,254 A6,6 0 1,1 55,254 A4.5,4.5 0 1,0 45,254Z" fill="rgba(201,168,76,0.45)"/>
-  </g>
-
-  <!-- ===== Small dome far right ===== -->
-  <g>
-    <rect x="1340" y="320" width="90" height="80" rx="2" fill="rgba(201,168,76,0.25)"/>
-    <path d="M1385,260 C1380,272 1362,290 1362,308 C1362,320 1372,330 1385,332 C1398,330 1408,320 1408,308 C1408,290 1390,272 1385,260Z" fill="rgba(201,168,76,0.32)"/>
-    <line x1="1385" y1="260" x2="1385" y2="246" stroke="rgba(201,168,76,0.40)" stroke-width="2"/>
-    <path d="M1380,242 A6,6 0 1,1 1390,242 A4.5,4.5 0 1,0 1380,242Z" fill="rgba(201,168,76,0.45)"/>
-  </g>
-
-  <!-- ===== Background buildings (simple rectangles) ===== -->
-  <g opacity="0.5">
-    <rect x="90" y="340" width="30" height="60" fill="rgba(201,168,76,0.18)"/>
-    <rect x="350" y="350" width="25" height="50" fill="rgba(201,168,76,0.15)"/>
-    <rect x="380" y="340" width="20" height="60" fill="rgba(201,168,76,0.12)"/>
-    <rect x="420" y="355" width="35" height="45" fill="rgba(201,168,76,0.15)"/>
-    <rect x="460" y="345" width="22" height="55" fill="rgba(201,168,76,0.12)"/>
-    <rect x="840" y="350" width="28" height="50" fill="rgba(201,168,76,0.15)"/>
-    <rect x="875" y="340" width="22" height="60" fill="rgba(201,168,76,0.12)"/>
-    <rect x="920" y="355" width="35" height="45" fill="rgba(201,168,76,0.15)"/>
-    <rect x="960" y="345" width="25" height="55" fill="rgba(201,168,76,0.12)"/>
-    <rect x="1230" y="340" width="30" height="60" fill="rgba(201,168,76,0.15)"/>
-    <rect x="1270" y="350" width="25" height="50" fill="rgba(201,168,76,0.12)"/>
-    <rect x="1305" y="335" width="20" height="65" fill="rgba(201,168,76,0.15)"/>
-  </g>
-
-  <!-- Decorative stars -->
-  <circle cx="100" cy="60" r="2" fill="rgba(201,168,76,0.40)"/>
-  <circle cx="350" cy="40" r="1.5" fill="rgba(201,168,76,0.35)"/>
-  <circle cx="480" cy="55" r="2" fill="rgba(201,168,76,0.40)"/>
-  <circle cx="820" cy="35" r="2.5" fill="rgba(201,168,76,0.45)"/>
-  <circle cx="1000" cy="50" r="1.5" fill="rgba(201,168,76,0.35)"/>
-  <circle cx="1280" cy="42" r="2" fill="rgba(201,168,76,0.40)"/>
-  <circle cx="200" cy="90" r="1.2" fill="rgba(201,168,76,0.30)"/>
-  <circle cx="700" cy="45" r="1.8" fill="rgba(201,168,76,0.38)"/>
-  <circle cx="1150" cy="70" r="1.2" fill="rgba(201,168,76,0.30)"/>
-
-  <!-- Ground line -->
-  <rect x="0" y="396" width="1440" height="4" fill="rgba(201,168,76,0.15)"/>
+  <!-- Ground -->
+  <rect x="0" y="396" width="1440" height="4" fill="rgba(201,168,76,0.10)"/>
 </svg>
