@@ -11,8 +11,8 @@
     <div class="absolute inset-0" style="background-image: repeating-linear-gradient(0deg, transparent, transparent 80px, rgba(201,168,76,0.04) 80px, rgba(201,168,76,0.04) 81px), repeating-linear-gradient(90deg, transparent, transparent 80px, rgba(201,168,76,0.04) 80px, rgba(201,168,76,0.04) 81px);"></div>
 
     {{-- Mosque skyline at bottom --}}
-    <div class="absolute bottom-0 left-0 right-0 w-full pointer-events-none overflow-hidden" style="height: 320px;">
-        <img src="{{ asset('images/mosque-skyline-final.png') }}?v={{ time() }}" alt="" class="absolute bottom-0 left-1/2 -translate-x-1/2 w-full h-auto object-cover object-bottom" style="min-width: 1200px; max-width: 2400px; opacity: 0.35;">
+    <div class="absolute bottom-0 left-0 right-0 w-full pointer-events-none overflow-hidden" style="height: 220px;">
+        <img src="{{ asset('images/mosque-skyline-final.png') }}?v={{ time() }}" alt="" class="absolute bottom-0 left-1/2 -translate-x-1/2 h-auto" style="width: 140%; max-width: 2000px; opacity: 0.55; mix-blend-mode: luminosity;">
     </div>
 
     <div class="relative z-10">
