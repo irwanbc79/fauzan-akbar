@@ -1,0 +1,65 @@
+@import "tailwindcss";
+
+@source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
+@source '../../storage/framework/views/*.php';
+@source '../**/*.blade.php';
+@source '../**/*.js';
+
+@theme {
+    --font-sans: "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
+    --font-serif: "Amiri", ui-serif, Georgia, serif;
+
+    --color-teal: #0d6e6e;
+    --color-teal-light: #1a8e8e;
+    --color-teal-dark: #084e4e;
+    --color-gold: #c9a84c;
+    --color-gold-light: #e8c87a;
+    --color-cream: #f9f5ee;
+    --color-cream-dark: #ede8dc;
+    --color-body: #1c2526;
+    --color-muted: #5a6a6a;
+}
+
+/* Custom animations */
+@keyframes fadeDown {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.animate-fade-down {
+    animation: fadeDown 0.8s ease both;
+}
+
+.animate-fade-up {
+    animation: fadeUp 0.8s ease both;
+}
+
+.delay-100 {
+    animation-delay: 0.1s;
+}
+.delay-200 {
+    animation-delay: 0.2s;
+}
+.delay-300 {
+    animation-delay: 0.3s;
+}
+.delay-400 {
+    animation-delay: 0.4s;
+}
