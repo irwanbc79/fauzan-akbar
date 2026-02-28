@@ -12,7 +12,7 @@
 
     {{-- Mosque skyline silhouette at bottom --}}
     <div class="absolute bottom-0 left-0 right-0 w-full pointer-events-none">
-        <img src="{{ asset('images/mosque-skyline.svg') }}" alt="" class="w-full h-auto opacity-60" style="min-height: 200px;">
+        <img src="{{ asset('images/mosque-skyline.svg') }}?v={{ time() }}" alt="" class="w-full h-auto" style="min-height: 200px;">
     </div>
 
     <div class="relative z-10">
