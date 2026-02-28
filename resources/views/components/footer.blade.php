@@ -4,8 +4,11 @@
     <div class="grid grid-cols-1 md:grid-cols-4 gap-10 mb-10 pb-10 border-b border-white/10">
         {{-- Brand --}}
         <div class="md:col-span-1">
-            <div class="font-serif text-[22px] text-white mb-2.5">
-                Sahabat Ilmu <span class="text-gold">PMI</span>
+            <div class="flex items-center gap-2.5 mb-2.5">
+                <img src="{{ asset('images/logo-mosque.svg') }}" alt="Sahabat Ilmu PMI" class="w-10 h-10">
+                <div class="font-serif text-[22px] text-white">
+                    Sahabat Ilmu <span class="text-gold">PMI</span>
+                </div>
             </div>
             <p class="text-[13px] leading-relaxed">
                 Majelis ilmu untuk Pekerja Migran Indonesia di Hong Kong. Bersama menguatkan iman, ilmu, dan ukhuwah di negeri orang.

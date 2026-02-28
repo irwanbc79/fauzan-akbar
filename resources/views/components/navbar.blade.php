@@ -2,9 +2,7 @@
 <nav class="fixed top-0 left-0 right-0 z-[999] bg-teal-dark/[0.96] backdrop-blur-xl flex items-center justify-between px-[5%] h-16 border-b border-gold/30">
     {{-- Brand --}}
     <a href="{{ route('home') }}" class="flex items-center gap-2.5 no-underline">
-        <div class="w-9 h-9 bg-gradient-to-br from-gold to-gold-light rounded-lg flex items-center justify-center font-serif text-lg text-teal-dark font-bold">
-            س
-        </div>
+        <img src="{{ asset('images/logo-mosque.svg') }}" alt="Sahabat Ilmu PMI" class="w-9 h-9 rounded-lg">
         <span class="text-[15px] font-semibold text-white tracking-wide">
             Sahabat Ilmu <span class="text-gold-light">PMI</span>
         </span>

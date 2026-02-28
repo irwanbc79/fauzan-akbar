@@ -10,6 +10,11 @@
     {{-- Grid overlay --}}
     <div class="absolute inset-0" style="background-image: repeating-linear-gradient(0deg, transparent, transparent 80px, rgba(201,168,76,0.04) 80px, rgba(201,168,76,0.04) 81px), repeating-linear-gradient(90deg, transparent, transparent 80px, rgba(201,168,76,0.04) 80px, rgba(201,168,76,0.04) 81px);"></div>
 
+    {{-- Mosque skyline silhouette at bottom --}}
+    <div class="absolute bottom-0 left-0 right-0 w-full pointer-events-none">
+        <img src="{{ asset('images/mosque-skyline.svg') }}" alt="" class="w-full h-auto opacity-60" style="min-height: 200px;">
+    </div>
+
     <div class="relative z-10">
         <div class="font-serif text-gold-light text-[clamp(20px,4vw,32px)] tracking-widest mb-5 opacity-90 animate-fade-down">
             بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيْمِ
