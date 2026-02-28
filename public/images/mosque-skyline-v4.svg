@@ -1,0 +1,203 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 400" preserveAspectRatio="none">
+
+  <!-- BACK LAYER - lighter mosques behind -->
+  <g fill="#0a4040" opacity="0.6">
+    <rect x="120" y="240" width="120" height="160"/>
+    <path d="M130,240 A50,50 0 0,1 230,240 Z"/>
+    <rect x="380" y="250" width="100" height="150"/>
+    <path d="M385,250 A45,45 0 0,1 475,250 Z"/>
+    <rect x="680" y="235" width="110" height="165"/>
+    <path d="M685,235 A50,50 0 0,1 785,235 Z"/>
+    <rect x="1050" y="248" width="90" height="152"/>
+    <path d="M1055,248 A40,40 0 0,1 1135,248 Z"/>
+    <rect x="1280" y="255" width="80" height="145"/>
+    <path d="M1285,255 A35,35 0 0,1 1355,255 Z"/>
+  </g>
+
+  <!-- === MOSQUE A (Far Left) - Large dome === -->
+  <g fill="#052525">
+    <rect x="20" y="260" width="180" height="140"/>
+    <rect x="20" y="255" width="180" height="8"/>
+    <path d="M35,260 A75,75 0 0,1 185,260 Z"/>
+  </g>
+  <!-- Minaret left of A -->
+  <g fill="#052525">
+    <rect x="5" y="185" width="14" height="215"/>
+    <rect x="1" y="210" width="22" height="5"/>
+    <rect x="2" y="260" width="20" height="4"/>
+    <path d="M5,185 A7,9 0 0,1 19,185 Z"/>
+    <rect x="10" y="160" width="4" height="25"/>
+    <circle cx="12" cy="158" r="5"/>
+    <polygon points="12,145 9,155 15,155"/>
+  </g>
+  <!-- Minaret right of A -->
+  <g fill="#052525">
+    <rect x="200" y="195" width="14" height="205"/>
+    <rect x="196" y="220" width="22" height="5"/>
+    <rect x="197" y="270" width="20" height="4"/>
+    <path d="M200,195 A7,9 0 0,1 214,195 Z"/>
+    <rect x="205" y="170" width="4" height="25"/>
+    <circle cx="207" cy="168" r="5"/>
+    <polygon points="207,155 204,165 210,165"/>
+  </g>
+
+  <!-- Small buildings between A and B -->
+  <g fill="#052525">
+    <rect x="225" y="300" width="25" height="100"/>
+    <rect x="255" y="310" width="20" height="90"/>
+    <rect x="280" y="295" width="22" height="105"/>
+    <rect x="308" y="305" width="18" height="95"/>
+  </g>
+
+  <!-- Tall standalone minaret -->
+  <g fill="#052525">
+    <rect x="335" y="170" width="16" height="230"/>
+    <rect x="330" y="200" width="26" height="5"/>
+    <rect x="331" y="255" width="24" height="4"/>
+    <path d="M335,170 A8,10 0 0,1 351,170 Z"/>
+    <rect x="341" y="142" width="4" height="28"/>
+    <circle cx="343" cy="140" r="5"/>
+    <polygon points="343,127 340,137 346,137"/>
+  </g>
+
+  <!-- === MOSQUE B (Center-Left) - Medium dome === -->
+  <g fill="#052525">
+    <rect x="370" y="270" width="130" height="130"/>
+    <rect x="370" y="265" width="130" height="8"/>
+    <path d="M380,265 A55,55 0 0,1 490,265 Z"/>
+  </g>
+  <!-- Small minaret left of B -->
+  <g fill="#052525">
+    <rect x="358" y="215" width="12" height="185"/>
+    <rect x="354" y="238" width="20" height="4"/>
+    <path d="M358,215 A6,8 0 0,1 370,215 Z"/>
+    <rect x="362" y="194" width="4" height="21"/>
+    <circle cx="364" cy="192" r="4"/>
+    <polygon points="364,182 361,190 367,190"/>
+  </g>
+  <!-- Tall minaret right of B -->
+  <g fill="#052525">
+    <rect x="510" y="180" width="15" height="220"/>
+    <rect x="505" y="208" width="25" height="5"/>
+    <rect x="506" y="265" width="23" height="4"/>
+    <path d="M510,180 A7.5,10 0 0,1 525,180 Z"/>
+    <rect x="516" y="152" width="4" height="28"/>
+    <circle cx="518" cy="150" r="5"/>
+    <polygon points="518,137 515,147 521,147"/>
+  </g>
+
+  <!-- Small buildings -->
+  <g fill="#052525">
+    <rect x="535" y="305" width="20" height="95"/>
+    <rect x="560" y="295" width="25" height="105"/>
+    <rect x="590" y="310" width="18" height="90"/>
+  </g>
+
+  <!-- === MOSQUE C (Center) - GRAND dome === -->
+  <g fill="#052525">
+    <rect x="610" y="250" width="220" height="150"/>
+    <rect x="610" y="244" width="220" height="10"/>
+    <path d="M630,244 A90,90 0 0,1 810,244 Z"/>
+  </g>
+  <!-- Tall minaret left of C -->
+  <g fill="#052525">
+    <rect x="595" y="155" width="16" height="245"/>
+    <rect x="590" y="182" width="26" height="5"/>
+    <rect x="591" y="240" width="24" height="4"/>
+    <rect x="592" y="305" width="22" height="4"/>
+    <path d="M595,155 A8,10 0 0,1 611,155 Z"/>
+    <rect x="601" y="125" width="4" height="30"/>
+    <circle cx="603" cy="123" r="5.5"/>
+    <polygon points="603,109 600,120 607,120"/>
+  </g>
+  <!-- Tall minaret right of C -->
+  <g fill="#052525">
+    <rect x="832" y="155" width="16" height="245"/>
+    <rect x="827" y="182" width="26" height="5"/>
+    <rect x="828" y="240" width="24" height="4"/>
+    <rect x="829" y="305" width="22" height="4"/>
+    <path d="M832,155 A8,10 0 0,1 848,155 Z"/>
+    <rect x="838" y="125" width="4" height="30"/>
+    <circle cx="840" cy="123" r="5.5"/>
+    <polygon points="840,109 837,120 844,120"/>
+  </g>
+
+  <!-- Small buildings between C and D -->
+  <g fill="#052525">
+    <rect x="858" y="300" width="22" height="100"/>
+    <rect x="885" y="310" width="18" height="90"/>
+    <rect x="908" y="295" width="24" height="105"/>
+    <rect x="937" y="308" width="20" height="92"/>
+  </g>
+
+  <!-- === MOSQUE D (Right) - Medium dome === -->
+  <g fill="#052525">
+    <rect x="960" y="275" width="120" height="125"/>
+    <rect x="960" y="270" width="120" height="8"/>
+    <path d="M968,270 A52,52 0 0,1 1072,270 Z"/>
+  </g>
+  <!-- Minaret left of D -->
+  <g fill="#052525">
+    <rect x="945" y="210" width="13" height="190"/>
+    <rect x="941" y="235" width="21" height="4"/>
+    <path d="M945,210 A6.5,8 0 0,1 958,210 Z"/>
+    <rect x="950" y="188" width="4" height="22"/>
+    <circle cx="952" cy="186" r="4.5"/>
+    <polygon points="952,175 949,184 955,184"/>
+  </g>
+  <!-- Minaret right of D -->
+  <g fill="#052525">
+    <rect x="1090" y="200" width="14" height="200"/>
+    <rect x="1086" y="225" width="22" height="5"/>
+    <rect x="1087" y="278" width="20" height="4"/>
+    <path d="M1090,200 A7,9 0 0,1 1104,200 Z"/>
+    <rect x="1095" y="174" width="4" height="26"/>
+    <circle cx="1097" cy="172" r="5"/>
+    <polygon points="1097,159 1094,169 1100,169"/>
+  </g>
+
+  <!-- Small buildings -->
+  <g fill="#052525">
+    <rect x="1115" y="305" width="20" height="95"/>
+    <rect x="1140" y="298" width="22" height="102"/>
+  </g>
+
+  <!-- === MOSQUE E (Far Right) - Small dome === -->
+  <g fill="#052525">
+    <rect x="1170" y="285" width="100" height="115"/>
+    <rect x="1170" y="280" width="100" height="8"/>
+    <path d="M1178,280 A42,42 0 0,1 1262,280 Z"/>
+  </g>
+  <!-- Minaret of E -->
+  <g fill="#052525">
+    <rect x="1275" y="218" width="13" height="182"/>
+    <rect x="1271" y="242" width="21" height="4"/>
+    <path d="M1275,218 A6.5,8 0 0,1 1288,218 Z"/>
+    <rect x="1280" y="196" width="4" height="22"/>
+    <circle cx="1282" cy="194" r="4.5"/>
+    <polygon points="1282,183 1279,192 1285,192"/>
+  </g>
+
+  <!-- Small buildings far right -->
+  <g fill="#052525">
+    <rect x="1300" y="300" width="22" height="100"/>
+    <rect x="1328" y="310" width="18" height="90"/>
+    <rect x="1352" y="295" width="25" height="105"/>
+    <rect x="1382" y="305" width="20" height="95"/>
+    <rect x="1408" y="298" width="32" height="102"/>
+  </g>
+
+  <!-- Ground bar -->
+  <rect x="0" y="395" width="1440" height="5" fill="#052525"/>
+
+  <!-- Stars -->
+  <circle cx="100" cy="40" r="1.5" fill="rgba(201,168,76,0.30)"/>
+  <circle cx="300" cy="55" r="1.2" fill="rgba(201,168,76,0.25)"/>
+  <circle cx="480" cy="30" r="1.8" fill="rgba(201,168,76,0.32)"/>
+  <circle cx="650" cy="50" r="1.3" fill="rgba(201,168,76,0.28)"/>
+  <circle cx="750" cy="25" r="1.5" fill="rgba(201,168,76,0.30)"/>
+  <circle cx="900" cy="40" r="1" fill="rgba(201,168,76,0.22)"/>
+  <circle cx="1050" cy="35" r="1.5" fill="rgba(201,168,76,0.28)"/>
+  <circle cx="1200" cy="50" r="1.2" fill="rgba(201,168,76,0.25)"/>
+  <circle cx="1380" cy="30" r="1" fill="rgba(201,168,76,0.22)"/>
+</svg>
